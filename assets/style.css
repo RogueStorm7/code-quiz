@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --before-color: #65dfdf;
+    --after-color: #65dfdf;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px 100px 0;
+
+}
+
+.header a {
+    margin-left: 15px;
+}
+
+#timer {
+    margin: 0 25px 0 0;
+   
+}
+
+
+.welcome-page {
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+text-align: center;
+justify-content: center;
+margin-bottom: 15px;
+}
+
+.welcome {
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%; 
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+ .buttons {
+    justify-content: center;
+     align-items: center; 
+}  
+
+#question-container {
+    width: 60%;
+
+}
+
+.btn {
+    width: 100%;
+    background-color: var(--before-color);
+    color: rgb(12, 247, 227);
+    padding: 10px;
+    margin: 5px 0 5px 0; 
+    font-size: 20px;   
+}
+
+
+
+.controls {
+    display: flex;
+    justify-content: center;
+}
+
+.start-btn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+
+.start-btn:hover,
+.btn:hover{
+    background-color: rgb(5, 53, 5);
+}
+
+.hide {
+    display: none;
+}
+
+#question {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+
+.correct {
+    width: 100%;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    border-top: 3px solid gray;
+    border-bottom: 3px solid gray;
+    background-color: rgb(5, 53, 5);
+}
+
+
+.incorrect {
+    width: 100%;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    border-top: 3px solid gray;
+    border-bottom: 3px solid gray;
+    background-color: rgb(153, 4, 4);
+}
+
+.over {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+#score {
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+#submit-btn {
+    margin-top: 10px;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: rgb(49, 17, 230);
+    cursor: pointer;
+}
+
+.score-card {
+    text-align: center;
+}
+
+.scores ol {
+    text-align: left;
+    padding-left: 47.5%;
+}
+
+#highscore {
+    margin-left: 10px;
+    cursor: pointer;
+}

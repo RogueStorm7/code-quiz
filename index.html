@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Code Quiz Challenge</title>
+
+    <link rel="stylesheet" href="/assets/style.css">
+
+  </head>
+
+  <body>
+
+    <header class="header">
+      <button id="high score">
+        Check out the high score
+        <P id="timer"> Timer: 60</P>
+    </header>
+
+    <!--Welcome section -->
+    <div id="container" class="container">
+      <div id="welocme-page" class="Welcome Page"></div>
+      <h1 style="text-align: center;">
+        <h1 class="welcome">Welcome to Test your Knowledge!</h1>
+        <p>Click the button below to take the timed test</br>
+          Incorrectly answered questions come with a 5 second penalty.</p>
+    </div>
+
+
+    <!-- Page End -->
+    <div id="page-end" class="end hide">
+      <h2 class="over"> Finished!</h2>
+      <p id="score"></p>
+      <p>Please enter initials:
+        <input type="text" placeholder="Your initials" id="initials" />
+        <button id="submit-btn" type="button">Submit</button>
+      </p>
+    </div>
+
+    <!-- Questions -->
+    <div id="question-container" class="hide">
+      <div id="question">Question</div>
+
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div id="answer-buttons" class="buttons">
+        <button id='btn1' class="btn">Answer 1</button>
+        <button id='btn2' class="btn">Answer 2</button>
+        <button id='btn3' class="btn">Answer 3</button>
+        <button id='btn4' class="btn">Answer 4</button>
+      </div>
+    </div>
+    <div id="display" class="correct hide"></div>
+    <div id="display2" class="incorrect hide"></div>
+    </div>
+    <div class="controls">
+      <button id="start-btn" class="start-btn" type="submit">Start Quiz</button>
+    </div>
+    <!-- Score Page -->
+    <div id="high-scores" class="score-card hide">
+      <h1>High Scores</h1>
+      <div id="scores-list" class="scores">
+
+
+        </br>
+        </br>
+
+        <ol id="newScores"></ol>
+
+        </br>
+        </br>
+
+        <a href="index.html"><button id="back">Go Back</button></a>
+        <button id="clear"> Clear High Scores</button>
+      </div>
+    </div>
+    <script src="assets/test-questions.js"></script>
+  </body>
+</html>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+   <footer>
+      &copy;2021 Test Your Knowledge
+    </footer>
