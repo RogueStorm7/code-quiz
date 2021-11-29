@@ -8,8 +8,8 @@
   - [User Instructions:](#user-instructions)
   - [Images:](#images)
 
-"Welcome...to take this short quiz to test your knowledge in coding. <br>
-Please "Click" here to begin. 
+"Welcome...to take this short quiz to test your knowledge in coding. Good Luck you got this! <br>
+Please begin by clicking <a href="https://roguestorm7.github.io/code-quiz-challenge/index.html" rel="nofollow">start quiz here.</a> 
 
 
 ## Description:
@@ -17,8 +17,5 @@ This is a coding assessment interactive coding challenge, created with a combina
 
 ## User Instructions: 
 Launch site in default browser.
-
-## Start Quiz: 
-To test type Click "Start Quiz" and answer questions.
 
 ## Images:

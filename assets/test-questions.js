@@ -99,10 +99,6 @@ let questionCounter = 0;
 let timeLeft = questions.length * 15;     
                                               
 
-
-
-// let shuffledQuestions, currentQuestionIndex
-
 // Timer countdown from 60 seconds
 function countDown() {
                             
@@ -270,32 +266,3 @@ answer3.addEventListener("click", checkAnswer)
 answer4.addEventListener("click", checkAnswer)
 viewScoreList.addEventListener("click", viewHighScores)
 
-var highscores = JSON.parse(window.localStorage.getItem("highscores")) || [];
-    // highscores.push(newScore);
-    // window.localStorage.setItem("highscores", JSON.stringify(highscores)); 
-        
-
-
-highscores.sort(function(a,b){
-    return b.score - a.score
-})
-
-highscores.forEach(function(score){
-    var li = document.createElement("li");
-    li.innerHTML = "<h5>" + score.id + "  " + score.score + "</h5>"
-    var olEl = document.getElementById('newScores');
-    olEl.appendChild(li)
-})
-
-console.log(highscores);
-
-    
-document.getElementById("clear").onclick = clearHighscores;
-startButton.addEventListener('click', startGame)
-answer1.addEventListener('click', checkAnswer)
-answer2.addEventListener('click', checkAnswer)
-answer3.addEventListener('click', checkAnswer)
-answer4.addEventListener('click', checkAnswer)
-viewScoreList.addEventListener('click', viewHighScores)
-
- 
