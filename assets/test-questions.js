@@ -1,7 +1,5 @@
 // list of all questions, choices, & answers
 const questions = [{
-
-}, {
   title: "There are two basic groups of data types used in JavaScript, what are they?",
   choices: ["Primitive & attribute","Primitive & reference types","Reference types & attribute","None of the above"],
   answer: "Primitive & reference types"
@@ -116,12 +114,12 @@ function countDown() {
 var createQuestionElement = function(index) {
 
     var currentQuestion = questions[questionCounter]
-    question.textContent = currentQuestion.question;
-
-    answer1.textContent = currentQuestion.answers[0]
-    answer2.textContent = currentQuestion.answers[1]
-    answer3.textContent = currentQuestion.answers[2]
-    answer4.textContent = currentQuestion.answers[3]
+    question.textContent = currentQuestion.title;
+//console.log (questionCounter, currentQuestion) 
+    answer1.textContent = currentQuestion.choices[0]
+    answer2.textContent = currentQuestion.choices[1]
+    answer3.textContent = currentQuestion.choices[2]
+    answer4.textContent = currentQuestion.choices[3]
 }
 
 var checkAnswer = function(event) {
