@@ -5,8 +5,8 @@
 }
 
 :root {
-    --before-color: #65dfdf;
-    --after-color: #65dfdf;
+    --before-color: #000;
+    --after-color: #000;
 }
 
 .header {
@@ -62,7 +62,7 @@ margin-bottom: 15px;
 .btn {
     width: 100%;
     background-color: var(--before-color);
-    color: rgb(12, 247, 227);
+    color: rgb(50, 4, 124);
     padding: 10px;
     margin: 5px 0 5px 0; 
     font-size: 20px;   
