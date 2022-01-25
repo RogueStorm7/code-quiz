@@ -20,5 +20,5 @@ Launch site in default browser.
 
 ## Images:
 ![code-quiz-screenshot-welcome-page](./asset/image-screenshot-quiz-welcome-page.)
-)
+
 
