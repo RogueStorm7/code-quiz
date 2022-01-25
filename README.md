@@ -19,6 +19,6 @@ This is a coding assessment interactive coding challenge, created with a combina
 Launch site in default browser.
 
 ## Images:
-![code-quiz-screenshot-welcome-page](./asset/image-screenshot-quiz-welcome-page.)
+(./asset/image-screenshot-quiz-welcome-page.)
 
 
